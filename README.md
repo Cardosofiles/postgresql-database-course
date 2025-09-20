@@ -8,6 +8,10 @@ Um ambiente completo de desenvolvimento PostgreSQL usando Docker Compose com pgA
 - [Docker Compose](https://docs.docker.com/compose/install/) instalado
 - Conhecimento básico de PostgreSQL e Docker
 
+### Tutorial em Português 🇧🇷
+
+- [WSL + Ubuntu + Docker + Docker Compose + Beekeeper](/docs/WSL-Ubuntu-Docker-Setup.md)
+
 ## ⚙️ Configuração de Ambiente
 
 ### 1. Configurar Variáveis de Ambiente
@@ -47,8 +51,14 @@ PGADMIN_PORT=8080                   # Porta da interface web do pgAdmin
 ### 1. Clonar e Configurar
 
 ```bash
-# Clone seu repositório
-git clone <url-do-seu-repositorio>
+# Clone o repositório, preferencialmente com SSH para segurança
+
+# SSH
+git clone git@github.com:Cardosofiles/postgresql-database-course.git
+cd database/postgreSQL
+
+#HTTPS
+git clone https://github.com/Cardosofiles/postgresql-database-course.git
 cd database/postgreSQL
 
 # Certifique-se de que o arquivo .env está configurado (veja Configuração de Ambiente acima)
@@ -62,7 +72,7 @@ ls -la .env
 docker-compose up -d
 
 # Verifica se os serviços estão rodando
-docker-compose ps
+docker ps
 
 # Visualiza logs (opcional)
 docker-compose logs -f
@@ -107,6 +117,24 @@ docker-compose exec postgres pg_isready -U postgres
    - Port: `5432`
    - Username: `postgres` (ou seu `POSTGRES_USER`)
    - Password: `postgres123` (ou seu `POSTGRES_PASSWORD`)
+
+### Outra forma de conectar ao banco
+
+Você também pode usar qualquer cliente SQL (DBeaver, DataGrip, TablePlus, etc.) para conectar ao banco de dados usando as mesmas credenciais acima.
+
+Nesse tutorial, usaremos o **[Beekeeper Studio](http://beekeeperstudio.io/)** como exemplo.
+
+1. Faça o download e instale o Beekeeper Studio Community Edition (gratuito e open-source).
+2. Abra o Beekeeper Studio
+3. Clique em "New Connection"
+4. Selecione "PostgreSQL"
+5. Preencha os campos:
+   - Host: `localhost`
+   - Port: `5432`
+   - Database: `database_course`
+   - Username: `postgres`
+   - Password: `postgres123`
+6. Clique em "Connect"
 
 ## 🔧 Comandos Úteis
 
