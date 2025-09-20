@@ -1,6 +1,6 @@
 # PostgreSQL com Docker Compose 🐘
 
-Um ambiente completo de desenvolvimento PostgreSQL usando Docker Compose com pgAdmin para gerenciamento de banco de dados.
+Um ambiente completo de desenvolvimento PostgreSQL usando Docker Compose com Beekeeper Studio e pgAdmin para gerenciamento de banco de dados.
 
 ## 📋 Pré-requisitos
 
