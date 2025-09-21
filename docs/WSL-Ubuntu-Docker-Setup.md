@@ -2,7 +2,13 @@
 
 Um guia passo a passo para configurar um ambiente de desenvolvimento completo no Windows usando WSL2, Ubuntu, Docker e Beekeeper Studio para gerenciamento de banco de dados PostgreSQL.
 
-## 📋 Índice
+<div align="right">
+
+[⬅️ Voltar ao README Principal](../README.md)
+
+</div>
+
+## Índice
 
 - [Pré-requisitos](#-pré-requisitos)
 - [1. Instalando WSL2 + Ubuntu](#1-instalando-wsl2--ubuntu)
@@ -502,8 +508,20 @@ Após configurar o ambiente:
 4. ✅ Configure backup automático
 5. ✅ Explore ferramentas de monitoramento
 
+<div align="right">
+
+[⬆️ Voltar ao topo](#índice)
+
+</div>
+
 ---
 
 **Feito com ❤️ para a comunidade**
 
 > 💡 **Dica:** Marque este repositório com ⭐ se foi útil para você e compartilhe com outros desenvolvedores!
+
+<div align="right">
+
+[⬅️ Voltar ao README Principal](../README.md)
+
+</div>

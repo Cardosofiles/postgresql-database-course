@@ -1,4 +1,18 @@
-# PostgreSQL com Docker Compose 🐘
+# PostgreSQL com Docker Compose
+
+<div align="center">
+
+![Curso de Banco de Dados](https://img.shields.io/badge/Curso%20de%20Banco%20de%20Dados-Rocketseat-0078D4?style=for-the-badge&logo=azuredevops)
+
+<!-- ![Disciplina](https://img.shields.io/badge/Disciplina-ADS-4B8BBE?style=for-the-badge&logo=github) -->
+<!-- ![Professora](https://img.shields.io/badge/Prof-Luciene%20Chagas%20de%20Oliveira-FFCA28?style=for-the-badge&logo=linkedin) -->
+
+**Instituição:** [Rocketseat](https://www.rocketseat.com.br/)  
+**Curso:** Banco de Dados
+
+<!-- **Professor:** [Luciene Chagas de Oliveira, Ph.D](https://www.linkedin.com/in/luciene-chagas-de-oliveira-ph-d-b21b3b31/) -->
+
+</div>
 
 Um ambiente completo de desenvolvimento PostgreSQL usando Docker Compose com Beekeeper Studio e pgAdmin para gerenciamento de banco de dados.
 
@@ -8,9 +22,12 @@ Um ambiente completo de desenvolvimento PostgreSQL usando Docker Compose com Bee
 - [Docker Compose](https://docs.docker.com/compose/install/) instalado
 - Conhecimento básico de PostgreSQL e Docker
 
-### Tutorial em Português 🇧🇷
+## Sumário
 
-- [WSL + Ubuntu + Docker + Docker Compose + Beekeeper](/docs/WSL-Ubuntu-Docker-Setup.md)
+- Tutorial em Português para configuração do ambiente
+  - [WSL + Ubuntu + Docker + Docker Compose + Beekeeper](/docs/WSL-Ubuntu-Docker-Setup.md)
+- Tipos de Dados em PostgreSQL
+  - [Visão Geral dos Tipos de Dados](./docs/data-types.md)
 
 ## ⚙️ Configuração de Ambiente
 
@@ -303,6 +320,12 @@ PGADMIN_PORT=8080
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+<div align="right">
+
+[⬆️ Voltar ao topo](#postgresql-com-docker-compose)
+
+</div>
 
 ---
 
