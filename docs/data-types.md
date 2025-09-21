@@ -199,3 +199,9 @@ PostgreSQL permite a criação de colunas que armazenam arrays de qualquer tipo 
 ## Conclusão
 
 ### PostgreSQL oferece uma ampla variedade de tipos de dados para atender às necessidades de diferentes aplicações. Escolher o tipo de dado correto é crucial para garantir a integridade dos dados, otimizar o desempenho e facilitar a manutenção do banco de dados. Para mais detalhes, consulte a [documentação oficial do PostgreSQL](https://www.postgresql.org/docs/current/datatype.html).
+
+<div align="right">
+
+[⬅️ Voltar ao README Principal](../README.md)
+
+</div>

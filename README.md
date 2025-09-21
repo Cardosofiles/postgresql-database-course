@@ -28,6 +28,8 @@ Um ambiente completo de desenvolvimento PostgreSQL usando Docker Compose com Bee
   - [WSL + Ubuntu + Docker + Docker Compose + Beekeeper](/docs/WSL-Ubuntu-Docker-Setup.md)
 - Tipos de Dados em PostgreSQL
   - [Visão Geral dos Tipos de Dados](./docs/data-types.md)
+- Comandos SQL Essenciais
+  - [Guia Prático de Comandos SQL (PostgreSQL)](./docs/sql-commands.md)
 
 ## ⚙️ Configuração de Ambiente
 
